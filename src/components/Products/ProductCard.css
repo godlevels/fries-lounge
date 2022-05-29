@@ -1,0 +1,136 @@
+.prod-body {
+    line-height: 0;
+    background: #f5f5f5;
+  }
+  
+  /* .product {
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+  } */
+  
+  .prod {
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    color: #557028;
+    margin: 0rem 0 3rem 0;
+  }
+  
+  .menu-div {
+    width: 90%;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .menus {
+    background: #fff;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 25px 40px rgba(128, 128, 128, 0.3);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .pic {
+    background: #557028;;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: contain;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .pic img {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  
+  .menu-cont {
+    width: 90%;
+    margin: auto;
+    line-height: 17px;
+    padding-bottom: 1rem;
+  }
+  
+  .menu-cont h4 {
+    width: 70%;
+    margin: 1.5rem 0;
+    color: rgb(29, 29, 29);
+    font-family: "Poppins", sans-serif;
+    height: 3rem;
+  }
+  
+  .menu-cont p {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(59, 59, 59, 0.9);
+    max-height: 35px;
+    /* overflow: hidden; */
+  }
+  
+  .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .counter {
+    display: flex;
+    gap: 1rem;
+    background: #557028;;
+    color: #fff;
+    padding: 0.4rem 0.7rem;
+    border-radius: 7px;
+  }
+  
+  .counter p {
+    font-weight: 600;
+    color: rgb(29, 29, 29);
+  }
+  
+  .counter p:nth-child(3) {
+    font-weight: 600;
+    color: rgb(123, 48, 35);
+  }
+  
+  .num-cart {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .num-cart p:nth-child(1) {
+    color: rgb(29, 29, 29);
+    font-weight: 700;
+    font-size: 17px;
+    font-style: italic;
+  }
+  
+  @media (max-width: 540px) {
+    .pic {
+      background: #557028;;
+      height: 200px;
+      border-radius: 10px;
+      object-fit: contain;
+      overflow: hidden;
+      position: relative;
+    }
+    .menu-cont h4 {
+      width: 70%;
+      margin: 1rem 0;
+      color: rgb(29, 29, 29);
+      height: 2rem;
+      line-height: 12px;
+      font-size: 12px;
+    }
+  }
